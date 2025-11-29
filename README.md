@@ -108,7 +108,3 @@ Make sure to set these in your `.env` file:
 - `VITE_FIREBASE_STORAGE_BUCKET`
 - `VITE_FIREBASE_MESSAGING_SENDER_ID`
 - `VITE_FIREBASE_APP_ID`
-
-## License
-
-MIT

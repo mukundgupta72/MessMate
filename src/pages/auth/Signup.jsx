@@ -55,7 +55,7 @@ export default function Signup() {
               type="email"
               required
               className="w-full p-3 border border-gray-300 rounded-lg bg-gray-50 focus:bg-white focus:ring-2 focus:ring-green-500 focus:border-green-500 outline-none transition"
-              placeholder="student@college.edu"
+              placeholder="student@messmate.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />

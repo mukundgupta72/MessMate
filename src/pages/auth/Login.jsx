@@ -42,7 +42,7 @@ export default function Login() {
               type="email"
               required
               className="w-full p-3 border border-gray-300 rounded-lg bg-gray-50 focus:bg-white focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition"
-              placeholder="student@college.edu"
+              placeholder="student@messmate.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -64,7 +64,7 @@ export default function Login() {
         </form>
         <div className="mt-6 text-center text-sm text-gray-600">
           <p className="mb-2">Don't have an account? <Link to="/signup" className="text-orange-600 font-bold hover:text-orange-700 hover:underline">Sign Up</Link></p>
-          <p className="text-gray-500">Demo: Use <b>admin@college.edu</b> for Admin View</p>
+          <p className="text-gray-500">Demo: Use <b>admin@messmate.com</b> for Admin View</p>
         </div>
       </div>
     </div>

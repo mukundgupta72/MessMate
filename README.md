@@ -1,16 +1,48 @@
 # MessMate 🍽️
 
-A modern web application for managing college mess/mess hall operations, built with React, Vite, and Firebase.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
-## Features
+> **Tackling Food Wastage in College Hostels.**
 
-- **Student Dashboard**: View daily menu, select meals, submit feedback
-- **Admin Dashboard**: Update daily menu items in real-time
-- **Authentication**: Secure login with Firebase Auth
-- **Real-time Updates**: Menu changes reflect instantly across all users
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
+A modern full-stack web application that synchronizes student demand with kitchen supply, eliminating the guesswork in mess operations.
 
-## Tech Stack
+---
+
+### 🚀 **[View Live Demo](https://mess-mate-gamma.vercel.app)**
+
+---
+
+## 📸 Screenshots
+
+| Student Dashboard | Admin Dashboard |
+|:---:|:---:|
+| ![Student View](./assets/studentDashboard.png) | ![Admin View](./assets/adminDashboard.png) |
+
+## 🧐 The Problem
+Every day, kilograms of fresh food are wasted in hostels because kitchen staff have to **guess** attendance. 
+- If 50 students skip dinner, that food is dumped.
+- **MessMate** solves this by allowing students to mark "Not Eating" in advance, giving the kitchen an exact real-time headcount.
+
+## ✨ Features
+
+- **Student Dashboard**: 
+  - 📅 View daily menu
+  - ❌ Mark meal availability (Eating/Not Eating)
+  - 💬 Submit feedback
+- **Admin Dashboard**: 
+  - 📊 **Real-time Headcount** for Breakfast, Lunch, & Dinner
+  - 📝 Update daily menu items instantly
+- **Technical Highlights**:
+  - **Real-time Sync**: Menu & stats update instantly across devices (Firestore).
+  - **Security**: Role-based Authentication via Firebase Auth.
+  - **Performance**: Built on React 19 & Vite for near-instant loads.
+- **Responsive Design**:
+  - Works seamlessly on desktop and mobile devices
+  
+## 🛠 Tech Stack
 
 - **Frontend**: React 19, Vite
 - **Styling**: Tailwind CSS 4
@@ -29,11 +61,7 @@ A modern web application for managing college mess/mess hall operations, built w
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   cd mess-app
-   ```
-
+1. Clone the repository
 2. Install dependencies:
    ```bash
    npm install
@@ -54,6 +82,7 @@ A modern web application for managing college mess/mess hall operations, built w
 
 ```
 mess-app/
+├── assets/
 ├── src/
 │   ├── components/       # Reusable UI components
 │   │   ├── layout/      # Layout components (DashboardLayout)
@@ -108,3 +137,11 @@ Make sure to set these in your `.env` file:
 - `VITE_FIREBASE_STORAGE_BUCKET`
 - `VITE_FIREBASE_MESSAGING_SENDER_ID`
 - `VITE_FIREBASE_APP_ID`
+
+## 📬 Contact
+
+Created by **[Mukund Gupta](https://in.linkedin.com/in/mukund-gupta-)** 
+
+Check out the [Live Demo](https://mess-mate-gamma.vercel.app) or view my other projects on [GitHub](https://github.com/mukundgupta72).
+
+---

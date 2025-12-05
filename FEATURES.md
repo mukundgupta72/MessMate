@@ -1,6 +1,4 @@
-# MessMate - Complete Feature List
-
-## ✅ All Features Implemented
+# MessMate - Feature List
 
 ### 🔐 Authentication System
 - ✅ User login with Firebase Authentication
@@ -90,46 +88,3 @@ The app uses the following Firestore collections:
 
 5. **mess/daily_menu** - Daily menu items
    - Fields: `breakfast`, `lunch`, `dinner`
-
-## 🚀 Setup Instructions
-
-1. Install dependencies:
-   ```bash
-   cd mess-app
-   npm install
-   ```
-
-2. Create `.env` file from `.env.example`:
-   ```bash
-   cp .env.example .env
-   ```
-
-3. Add your Firebase configuration to `.env`
-
-4. Set up Firebase:
-   - Enable Authentication (Email/Password)
-   - Create Firestore database
-   - Create collections as needed (they'll be created automatically on first use)
-
-5. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-## 📝 Notes
-
-- All features are 100% functional
-- The app uses real-time Firebase Firestore listeners for instant updates
-- Meal selections can be made up to 7 days in advance
-- Clean, modern UI with Tailwind CSS
-- Success notifications use react-hot-toast for user actions
-
-## 🎯 Future Enhancements (Optional)
-
-- Email notifications for reminders
-- Push notifications
-- Advanced analytics charts
-- Meal history reports
-- Export functionality for statistics
-- Batch operations for admin
-

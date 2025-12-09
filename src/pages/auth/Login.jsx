@@ -64,7 +64,8 @@ export default function Login() {
         </form>
         <div className="mt-6 text-center text-sm text-gray-600">
           <p className="mb-2">Don't have an account? <Link to="/signup" className="text-orange-600 font-bold hover:text-orange-700 hover:underline">Sign Up</Link></p>
-          <p className="text-gray-500">Demo: Use <b>admin@messmate.com</b> for Admin View</p>
+          <p className="text-gray-500">Admin Demo: <b>admintest@messmate.com</b></p>
+          <p className="text-gray-500">Password : <b>admin@messmate</b></p>
         </div>
       </div>
     </div>
